@@ -20,7 +20,7 @@ btnCalc.addEventListener("click", (e) => {
     suma += num;
   });
 
-  textArea.innerHTML = `Los números de 3 y 5: \n${nums.toString()}, \nel total de números es: ${
+  textArea.innerHTML = `Los números de 3 y 5: \n${nums.toString()} \nEl total de números es: ${
     nums.length
-  }, \ny la suma de todos es: ${suma}`;
+  } \nLa sumatoria de todos es: ${suma}`;
 });
